@@ -2,8 +2,10 @@
   animation: anim 1s linear infinite;
   font-family: "Comfortaa", serif;
   color: transparent;
+  background-clip: text;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-size: 200px;
+  font-weight: 500;
   font-style: normal;
   font-size: large;
   text-align: center;
