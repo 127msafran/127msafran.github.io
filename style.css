@@ -5,19 +5,19 @@
   background-clip: text;
   font-optical-sizing: auto;
   font-size: 200px;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   text-align: center;
-  background-image: radial-gradient(#FF6666, #FFAA66, #FFDD66, #66FFCC, #6699FF, #9966FF, #FF6666)
+  background-image: linear-gradient(90deg, #FF6666, #FFAA66, #FFDD66, #66FFCC, #6699FF, #9966FF, #FF6666)
 }
 
 @keyframes anim {
   from {
-    background-size: 0%;
+    background-position: 0%;
   }
 
   to {
-    background-size: 200%;
+    background-position: -200%;
   }
 }
 
