@@ -1,14 +1,15 @@
 .title {
-  animation: anim 1s linear infinite;
   font-family: "Comfortaa", serif;
-  color: transparent;
-  background-clip: text;
   font-optical-sizing: auto;
-  font-size: 200px;
   font-weight: 700;
   font-style: normal;
-  text-align: center;
+  animation: anim 1s linear infinite;
   background-image: linear-gradient(90deg, #FF6666, #FFAA66, #FFDD66, #66FFCC, #6699FF, #9966FF, #FF6666);
+  background-size: 200%;
+  color: transparent;
+  background-clip: text;
+  text-align:center;
+  font-size:100px;
 }
 
 @keyframes anim {
