@@ -10,7 +10,11 @@
   background-clip: text;
   text-align:center;
   font-size:100px;
-  margin-bottom: 0;
+  margin-bottom: 0px; 
+}
+
+.title-box {
+  background-color: rgb(34, 58, 58);
 }
 
 @keyframes anim {
@@ -25,6 +29,7 @@
 
 body {
   background-color: darkslategray;
+  
 }
 
 main {
@@ -33,6 +38,8 @@ main {
   font-weight: 500;
   font-style: normal;
   color:whitesmoke;
+  margin-left: 20px;
+  margin-right:20px
 }
 
 header p {
