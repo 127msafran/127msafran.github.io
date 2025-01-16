@@ -25,3 +25,15 @@
 body {
   background-color: darkslategray;
 }
+
+main {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color:whitesmoke;
+}
+
+p header {
+  text-align: center;
+}
