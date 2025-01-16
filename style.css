@@ -4,13 +4,19 @@
   font-weight: 700;
   font-style: normal;
   animation: anim 1s linear infinite;
-  background-image: linear-gradient(90deg, #FF6666, #FFAA66, #FFDD66, #66FFCC, #6699FF, #9966FF, #FF6666);
-  background-size: 200%;
+  background-image: linear-gradient(180deg, #FF6666, #FFAA66, #FFDD66, #66FFCC, #6699FF, #9966FF, #FF6666);
+  background-size: 100% 200%;
   color: transparent;
   background-clip: text;
   text-align:center;
   font-size:100px;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
+  padding-top: 60px
+}
+
+.transition-gradient {
+  height: 100px; /* Height of the gradient */
+  background: linear-gradient(to bottom, rgb(34, 58, 58), darkslategray); /* Gradient from header to main */
 }
 
 .title-box {
@@ -19,11 +25,11 @@
 
 @keyframes anim {
   from {
-    background-position: 0%;
+    background-position: 0% 200%;
   }
 
   to {
-    background-position: -200%;
+    background-position: 0% 0%;
   }
 }
 
@@ -45,10 +51,21 @@ main {
 header p {
   text-align: center;
   font-size: 20px;
-  margin-top: 0px;
+  margin: 0px;
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   color:whitesmoke;
+}
+
+header a {
+  position:absolute;
+  top:20px;
+  left:20px;
+  color:whitesmoke;
+}
+
+a.link-1:hover {
+  color:white;
 }
