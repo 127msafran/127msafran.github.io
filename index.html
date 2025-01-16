@@ -17,7 +17,20 @@
 <body>
     <header>
         <h1 class = "title">Mason</h1>
-        <p>hi</p>
+        <p id = "bellow-text"></p>
+        <script>
+            // Array of text options
+            const texts = [
+                "Just a chill guy 😎",
+                "Or Mace if you like that better"
+            ];
+    
+            // Select a random text
+            const randomText = texts[Math.floor(Math.random() * texts.length)];
+    
+            // Display the text in the div
+            document.getElementById('bellow-text').textContent = randomText;
+        </script>
     </header>
     <main>
         <p>This is my own website!</p>

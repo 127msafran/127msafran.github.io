@@ -10,6 +10,7 @@
   background-clip: text;
   text-align:center;
   font-size:100px;
+  margin-bottom: 0;
 }
 
 @keyframes anim {
@@ -34,6 +35,13 @@ main {
   color:whitesmoke;
 }
 
-p header {
+header p {
   text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color:whitesmoke;
 }
